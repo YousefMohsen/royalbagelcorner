@@ -1,21 +1,21 @@
 .navbar-default .navbar-toggle .icon-bar{
-	background-color: #8dc63f;
+	background-color: #e71e1e;
 }
 .main-menu .navbar-default .navbar-nav .active a{
-	color: #8dc63f;
+	color: #e71e1e;
 }
 .main-menu nav li a::after {
-    background: #8dc63f;
+    background: #e71e1e;
 }
 .typer{
-	color: #8dc63f !important;
+	color: #e71e1e !important;
 }
 .banner-text h2{
-	color: #8dc63f
+	color: #e71e1e
 }
 .book-btn a{
-	background: #8dc63f;
-	border: 3px solid #8dc63f;
+	background: #e71e1e;
+	border: 3px solid #e71e1e;
 }
 .book-btn a:hover{
 	border: 3px solid #5f9317;
@@ -24,67 +24,67 @@
 	background:#5f9317;
 }
 .block-title{
-	color: #8dc63f;
+	color: #e71e1e;
 }
 .item-type-zoom .item-hover:hover::before{
 	background: rgba(141, 198, 63, 0.5);
 }
 .special-box .owl-theme .owl-controls .owl-page.active span{
-	background: #8dc63f;
+	background: #e71e1e;
 }
 .offer-item div h3{
-	color: #8dc63f;
+	color: #e71e1e;
 }
 .tab-menu .is-active{
-	background: #8dc63f;
+	background: #e71e1e;
 }
 .tab-menu .slick-arrow.slick-prev{
-	background: #8dc63f url(../../images/back.png) no-repeat center;
+	background: #e71e1e url(../../images/back.png) no-repeat center;
 	background-position: 2px 4px;
 }
 .tab-menu .slick-arrow.slick-next{
-	background: #8dc63f url(../../images/next.png) no-repeat center;
+	background: #e71e1e url(../../images/next.png) no-repeat center;
 	background-position: 7px 4px;
 }
 .tab-menu .slick-arrow.slick-prev:hover{
-	background:#8dc63f url(../../images/back_hover.png) no-repeat center;
+	background:#e71e1e url(../../images/back_hover.png) no-repeat center;
 	background-position: 2px 4px;
 }
 .tab-menu .slick-arrow.slick-next:hover{
-	background:#8dc63f url(../../images/next_hover.png) no-repeat center;
+	background:#e71e1e url(../../images/next_hover.png) no-repeat center;
 	background-position: 7px 4px;
 }
 
 .offer-item .offer-price{
-	border: 1px solid #8dc63f;
+	border: 1px solid #e71e1e;
 }
 .sf-team:hover .text-col{
-	background-color: #8dc63f;
+	background-color: #e71e1e;
 }
 .gal-item a::after{
 	background-color: rgba(141, 198, 63, 0.75);
 }
 .overlay i:hover{
-	border: 1px solid #8dc63f;
-	color: #8dc63f;
+	border: 1px solid #e71e1e;
+	color: #e71e1e;
 }
 .blog-btn-v a{
-	background: #8dc63f;
-	border: 3px solid #8dc63f;
+	background: #e71e1e;
+	border: 3px solid #e71e1e;
 }
 .blog-btn-v a:hover{
 	border: 3px solid #5f9317;
 }
 .book-srv a{
-	background: #8dc63f;
-	border: 3px solid #8dc63f;
+	background: #e71e1e;
+	border: 3px solid #e71e1e;
 }
 .book-srv a:hover{
 	border: 3px solid #5f9317;
 }
 .reserve-book-btn button{
-	background: #8dc63f;
-	border: 3px solid #8dc63f;
+	background: #e71e1e;
+	border: 3px solid #e71e1e;
 }
 .reserve-book-btn button:hover a{
 	color:#000000;
@@ -94,17 +94,17 @@
 }
 
 .panel-pricing .panel-heading{
-	background: #8dc63f;;
+	background: #e71e1e;;
 }
 .panel-pricing{
-	border: 1px solid #8dc63f;
+	border: 1px solid #e71e1e;
 }
 .panel-body p strong span{
-	color: #8dc63f;
+	color: #e71e1e;
 }
 .pricing-main .panel-footer a{
-	background: #8dc63f;
-	border: 3px solid #8dc63f;
+	background: #e71e1e;
+	border: 3px solid #e71e1e;
 }
 .pricing-main .panel-footer a:hover{
 	border: 3px solid #5f9317;
@@ -112,37 +112,37 @@
 
 
 .footer-news form a{
-	background: #8dc63f;
+	background: #e71e1e;
 }
 .footer-news form a:hover{
-	border: 2px dotted #8dc63f;
+	border: 2px dotted #e71e1e;
 }
 .footer-box-a h3{
-	color: #8dc63f;
+	color: #e71e1e;
 }
 .footer-box-b h3{
-	color: #8dc63f;
+	color: #e71e1e;
 }
 .footer-box-c h3{
-	color: #8dc63f;
+	color: #e71e1e;
 }
 .footer-box-d h3{
-	color: #8dc63f;
+	color: #e71e1e;
 }
 .footer-box-c p a:hover{
-	color: #8dc63f;
+	color: #e71e1e;
 }
 .footer-box-b ul li a:hover{
-	color: #8dc63f;
+	color: #e71e1e;
 }
 
 
 .footer-box .socials-box a:hover .social-circle-border{
-	color: #8dc63f;
+	color: #e71e1e;
 }
 
 .footer-box-c p i{
-	color: #8dc63f;
+	color: #e71e1e;
 }
 
 .copyright-main{
@@ -150,5 +150,5 @@
 }
 
 #color-panel a.panel-button:hover{
-	color: #8dc63f;		
+	color: #e71e1e;		
 }

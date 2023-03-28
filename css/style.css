@@ -280,6 +280,7 @@ html, body{ height: 100%; }
     line-height: normal;
     font-size: 100%;
     height: 100%;
+    width: 250px;
 }
 .main-menu .navbar-default{
 	background-color:transparent;
@@ -289,12 +290,19 @@ html, body{ height: 100%; }
 	border-radius:0px;
 	border:none;
 	margin:0px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .main-menu nav .navbar-header .navbar-brand{
 	height:inherit;
 }
+
+.navbar-brand>img{
+    width: 100%;
+}
 .main-menu .navbar-default .navbar-nav li a{
 	color:#fff;
+    padding: 20px 0px;
 }
 .main-menu nav li a{
 	padding: 43px 0px 15px;
@@ -383,7 +391,9 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 .banner{
-	background:url(../images/outside.webp) no-repeat center top;
+	/*background:url(../images/outside.webp) no-repeat center top;*/
+    background:linear-gradient(0deg, rgb(0 0 0 / 69%), rgb(0 0 0 / 70%)), url(../images/outside.webp);
+
 	background-attachment:fixed;
 	background-size:cover;
 	height:100vh;
@@ -647,8 +657,9 @@ html, body{ height: 100%; }
 
 .about-inset {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -50px;
+    right: -50px;
+    width: 150px;
 }
 
 
