@@ -635,13 +635,13 @@ html, body{ height: 100%; }
 
 
 .about-images img {
-    border: 10px solid #f1f1f1;
+    border: 4px solid #f1f1f1;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-border-radius: 999px;
+ /*   -webkit-border-radius: 999px;
     -moz-border-radius: 999px;
-    border-radius: 999px;
+    border-radius: 999px;*/
 }
 
 .about-images img {
@@ -649,13 +649,14 @@ html, body{ height: 100%; }
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-border-radius: 999px;
+  /*  -webkit-border-radius: 999px;
     -moz-border-radius: 999px;
-    border-radius: 999px;
+    border-radius: 999px;*/
 	max-width: 100%;
 }
 
 .about-inset {
+    display: none;
     position: absolute;
     top: -50px;
     right: -50px;
@@ -1565,10 +1566,11 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 .footer-main{}
 .footer-news{
-	background:url(../images/newsletter-bg.jpg) no-repeat center;
+	background:url(../images/sandwich1.jpeg) no-repeat center;
 	background-attachment:fixed;
 	background-size:cover;
 	position:relative;
+    height: 450px;
 }
 
 .footer-news::before {
@@ -1669,9 +1671,9 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     padding: 4px;
 }
 .footer-box {
-	background-image:-moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(..images/footer_background.jpg);
-	background-image:-webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/footer_background.jpg);
-	background-image:radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/footer_background.jpg);
+	/*background-image:-moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(..images/outside.webp);
+	background-image:-webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/outside.webp);
+	background-image:radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/outside.webp);*/
 	background-color:#111;background-position:center;background-repeat:no-repeat;background-size:cover
 	}
 .socials-box li {
