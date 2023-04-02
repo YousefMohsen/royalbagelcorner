@@ -1687,3 +1687,13 @@ responsive
     /* right: 0; */
     z-index: 2;
 }
+
+.review-star-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.review-star-container img{
+  width: 20px !important;
+}
