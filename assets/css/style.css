@@ -853,35 +853,35 @@ about
 ---------------------------------------------
 */
 
-#about {
+#om {
   margin-top: 20px;
   padding: 100px 0px 0px 0px;
   position: relative;
   z-index: 9;
 }
 
-#about .section-heading h2 {
+#om .section-heading h2 {
   padding-right: 120px;
 }
 
-#about img {
+#om img {
   width: 100%;
   overflow: hidden;
 }
 
-#about .left-text-content p {
+#om .left-text-content p {
   margin-bottom: 25px;
 }
 
-#about .right-content {
+#om .right-content {
   margin-left: 30px;
 }
 
-#about .right-content .thumb {
+#om .right-content .thumb {
   position: relative;
 }
 
-#about .right-content .thumb a {
+#om .right-content .thumb a {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -897,7 +897,7 @@ about
   transition: all .3s;
 }
 
-#about .right-content .thumb a:hover {
+#om .right-content .thumb a:hover {
   opacity: .9;
 }
 
@@ -908,13 +908,13 @@ menu
 ---------------------------------------------
 */
 
-#menu {
+#anmedelser {
   margin-top: 120px;
   background-color: #fffafa;
   padding: 120px 0px;
 }
 
-#menu .section-heading {
+#anmedelser .section-heading {
   margin-bottom: 80px;
 }
 
@@ -971,7 +971,7 @@ border: 1px solid lightgrey;
   padding: 0px 30px;
 }
 
-#menu .price h6 {
+#anmedelser .price h6 {
   position: absolute;
   width: 70px;
   height: 70px;
@@ -984,17 +984,17 @@ border: 1px solid lightgrey;
   line-height: 70px;
 }
 
-#menu .card .main-text-button {
+#anmedelser .card .main-text-button {
   margin-left: 30px;
   margin-top: 20px;
   padding-bottom: 30px;
 }
 
-#menu .owl-menu-item {
+#anmedelser .owl-menu-item {
   position: relative;
 }
 
-#menu .owl-nav {
+#anmedelser .owl-nav {
   text-align: center;
   position: absolute;
   width: 100%;
@@ -1002,21 +1002,21 @@ border: 1px solid lightgrey;
   transform: translateY(5px);
 }
 
-#menu .owl-dots {
+#anmedelser .owl-dots {
   display: none;
 }
     
-#menu .owl-nav .owl-prev{
+#anmedelser .owl-nav .owl-prev{
   margin-right: 10px;
   outline: none;
 }
 
-#menu .owl-nav .owl-prev span,
-#menu .owl-nav .owl-next span {
+#anmedelser .owl-nav .owl-prev span,
+#anmedelser .owl-nav .owl-next span {
   opacity: 0;
 }
 
-#menu .owl-nav .owl-prev:before {
+#anmedelser .owl-nav .owl-prev:before {
   display: inline-block;
   font-family: 'FontAwesome';
   color: #fb5849;
@@ -1025,30 +1025,30 @@ border: 1px solid lightgrey;
   content: '\f104';
 }
 
-#menu .owl-nav .owl-prev {
+#anmedelser .owl-nav .owl-prev {
   opacity: 0.75;
   transition: all .5s;
 }
 
-#menu .owl-nav .owl-prev:hover {
+#anmedelser .owl-nav .owl-prev:hover {
   opacity: 1;
 }
 
-#menu .owl-nav .owl-next {
+#anmedelser .owl-nav .owl-next {
   opacity: 0.75;
   transition: all .5s;
 }
 
-#menu .owl-nav .owl-next:hover {
+#anmedelser .owl-nav .owl-next:hover {
   opacity: 1;
 }
 
-#menu .owl-nav .owl-next{
+#anmedelser .owl-nav .owl-next{
   margin-left: 10px;
   outline: none;
 }
 
-#menu .owl-nav .owl-next:before {
+#anmedelser .owl-nav .owl-next:before {
   display: inline-block;
   font-family: 'FontAwesome';
   color: #fb5849;
@@ -1186,29 +1186,29 @@ reservation
 --------------------------------------------- 
 */
 
-#reservation .section-heading {
+#kontakt .section-heading {
   margin-bottom: 30px;
 }
 
-#reservation .section-heading h6 {
+#kontakt .section-heading h6 {
   color: #fff;
 }
 
-#reservation .section-heading h2 {
+#kontakt .section-heading h2 {
   color: #fff;
   font-weight: 700;
 }
 
-#reservation .section-heading h6:before {
+#kontakt .section-heading h6:before {
   background-color: #fff;
 }
 
-#reservation p {
+#kontakt p {
   color: #fff;
   margin-bottom: 65px;
 }
 
-#reservation {
+#kontakt {
   margin-top: 120px;
   padding: 120px 0px;
 /*  background-image: url(../images/reservation-bg.jpg);*/
@@ -1218,8 +1218,8 @@ background-color: currentcolor;
   background-size: cover;
 }
 
-#reservation .phone,
-#reservation .message {
+#kontakt .phone,
+#kontakt .message {
   background-color: #fff;
   border-radius: 5px;
   text-align: center;
@@ -1228,8 +1228,8 @@ min-height:160px;
 
 }
 
-#reservation .phone i,
-#reservation .message i {
+#kontakt .phone i,
+#kontakt .message i {
   width: 70px;
   height: 70px;
   display: inline-block;
@@ -1245,23 +1245,23 @@ min-height:160px;
   margin-right: auto;
 }
 
-#reservation .phone h4,
-#reservation .message h4 {
+#kontakt .phone h4,
+#kontakt .message h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 15px;
   margin-bottom: 10px;
 }
 
-#reservation .phone span a,
-#reservation .message span a {
+#kontakt .phone span a,
+#kontakt .message span a {
   font-size: 14px;
   color: #2a2a2a;
   transition: all .3s;
 }
 
-#reservation .phone span a:hover,
-#reservation .message span a:hover {
+#kontakt .phone span a:hover,
+#kontakt .message span a:hover {
   color: #fb5849;
 }
 
@@ -1354,44 +1354,44 @@ offers
 ---------------------------------------------
 */
 
-#offers {
+#menu {
   padding-top: 120px;
 }
 
-#offers .section-heading {
+#menu .section-heading {
   margin-bottom: 70px;
 }
 
-#offers .section-heading h6 {
+#menu .section-heading h6 {
   padding-left: 0px;
 }
 
-#offers .section-heading h6:before {
+#menu .section-heading h6:before {
   display: none;
 }
 
-#offers .heading-tabs {
+#menu .heading-tabs {
   text-align: center;
 }
 
-#offers .heading-tabs .main-dark-button {
+#menu .heading-tabs .main-dark-button {
   text-align: right;
 }
 
-#offers #tabs ul {
+#menu #tabs ul {
   padding: 0;
 }
-#offers #tabs ul li {
+#menu #tabs ul li {
   display: inline-block;
   margin: 0px 15px;
 }
-#offers #tabs ul li:last-child {
+#menu #tabs ul li:last-child {
   margin-right: 0px;
 }
-#offers #tabs ul li:first-child {
+#menu #tabs ul li:first-child {
   margin-left: 0px;
 }
-#offers #tabs ul li a {
+#menu #tabs ul li a {
   text-transform: capitalize;
   width: 100%;
   display: inline-block;
@@ -1402,35 +1402,35 @@ offers
   text-align: center;
 }
 
-#offers #tabs ul li a img {
+#menu #tabs ul li a img {
   display: block;
   margin: 0 auto 15px auto;
 }
-#offers #tabs ul .ui-tabs-active a {
+#menu #tabs ul .ui-tabs-active a {
   color: #fb5849;
   position: relative;
 }
-#offers #tabs ul .ui-tabs-active span {
+#menu #tabs ul .ui-tabs-active span {
   color: #1e1e1e;
 }
-#offers .tabs-content {
+#menu .tabs-content {
   margin-top: 60px;
   text-align: left;
   display: inline-block;
   transition: all 0.3s;
 }
-#offers .tabs-content .tab-item {
+#menu .tabs-content .tab-item {
   position: relative;
   margin-bottom: 60px;
 }
-#offers .tabs-content img {
+#menu .tabs-content img {
   float: left;
   width: 100px;
   max-width: 100px;
   margin-right: 20px;
   border-radius: 5px;
 }
-#offers .tabs-content h4 {
+#menu .tabs-content h4 {
   padding-top: 10px;
   font-size: 20px;
   font-weight: 700;
@@ -1439,19 +1439,19 @@ offers
   margin-right: 100px;
 }
 
-#offers .tabs-content p {
+#menu .tabs-content p {
   margin-right: 100px;
 }
 
-#offers .tabs-content .left-list {
+#menu .tabs-content .left-list {
   margin-right: 15px;
 }
 
-#offers .tabs-content .right-list {
+#menu .tabs-content .right-list {
   margin-left: 15px;
 }
 
-#offers .tabs-content .price h6 {
+#menu .tabs-content .price h6 {
   position: absolute;
   top: 15px;
   right: 0;
@@ -1466,8 +1466,45 @@ offers
   font-weight: 700;
   color: #fff;
 }
-
-
+.bagelstepItem-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.bagelstepItem{
+  background-color: rgb(33, 37,41);
+  border-radius: 5px;
+  text-align: center;
+  padding: 0px 40px 10px 40px ;
+  min-height: 160px;
+  color: white !important;
+  width: max-content;
+  margin-bottom: 40px;
+  margin:  20px;
+}
+@media (max-width: 600px) {
+  .bagelstepItem{
+    width:100%;
+  }
+}
+.bagelstepItem h4,.bagelstepItem p, .bagelstepItem span, .bagelstepItem a {
+  color: white !important;
+  margin: 0 !important;
+}
+.bagelStepBadge{
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  text-align: center;
+  line-height: 70px;
+  color: #fff;
+  background-color:#fb5849;
+  border-radius: 50%;
+  font-size: 24px;
+  margin-top: -35px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* 
 ---------------------------------------------
 footer
@@ -1562,25 +1599,25 @@ responsive
     text-align: center;
     padding: 25% 0px;
   }
-  #about .right-content {
+  #om .right-content {
     margin-left: 0px;
     margin-top: 30px;
   }
   #chefs .chef-item {
     margin-bottom: 30px;
   }
-  #reservation .phone {
+  #kontakt .phone {
     margin-bottom: 60px;
   }
   #contact {
     margin-left: 0px;
     margin-top: 30px;
   }
-  #offers .tabs-content .left-list {
+  #menu .tabs-content .left-list {
     margin-right: 0px;
   }
 
-  #offers .tabs-content .right-list {
+  #menu .tabs-content .right-list {
     margin-left: 0px;
   }
   footer .right-text-content {
