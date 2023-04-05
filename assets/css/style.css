@@ -1402,6 +1402,7 @@ offers
   padding: 0;
 }
 #menu #tabs ul li {
+  display: inline-block;
   margin: 0px 15px;
 }
 #menu #tabs ul li:last-child {
@@ -1500,11 +1501,6 @@ offers
   margin-bottom: 40px;
   margin:  20px;
 }
-.bagelstepItem p {
-  text-align: left;
-}
-
-
 @media (max-width: 600px) {
   .bagelstepItem{
     width:100%;
