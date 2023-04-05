@@ -648,12 +648,16 @@ banner
 */
 
 #top {
-  padding-top: 100px;
 }
 
 #top .col-lg-4,
 #top .col-lg-8 {
   padding: 0px;
+}
+@media (max-width: 600px) {
+  #top .left-content {
+  display: none;
+  }
 }
 
 #top .left-content {
@@ -1733,4 +1737,11 @@ responsive
 }
 .review-star-container img{
   width: 20px !important;
+}
+.menu-image{
+  width: 40px;
+}
+#menu #tabs ul .ui-tabs-active a .menu-image{
+  width: 50px;
+
 }
