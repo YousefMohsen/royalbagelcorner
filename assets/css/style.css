@@ -877,27 +877,36 @@ about
 ---------------------------------------------
 */
 
-#om {
+#om, #catering {
   margin-top: 20px;
   padding: 100px 0px 0px 0px;
   position: relative;
   z-index: 9;
 }
 
-#om .section-heading h2 {
+#om .section-heading h2 ,
+#catering .section-heading h2  {
   padding-right: 120px;
 }
 
-#om img {
+#om img,
+#catering img {
   width: 100%;
   overflow: hidden;
 }
 
-#om .left-text-content p {
+#om .left-text-content p,
+#catering .left-text-content p  {
   margin-bottom: 25px;
 }
 
-#om .right-content {
+#catering{
+  background-color: #faf4f4;
+  padding-bottom: 50px;
+}
+
+#om .right-content ,
+#catering .right-content {
   margin-left: 30px;
 }
 
@@ -1565,7 +1574,6 @@ footer
 */
 
 footer {
-  margin-top: 60px;
   padding: 50px 0px;
   background-color: #fb5849;
 }
@@ -1655,7 +1663,8 @@ responsive
   #top .left-content .inner-content h2{
     font-size: 27px;
   }
-  #om .right-content {
+  #om .right-content,
+  #catering  .right-content{
     margin-left: 0px;
     margin-top: 30px;
   }
