@@ -661,8 +661,11 @@ banner
 }
 
 @media (max-width: 992px) {
-  #top .left-content {
+  .img-fill img {
+
+    margin-top: 0px !important;
   }
+  
 }
 
 
@@ -678,13 +681,13 @@ banner
 
 #top .left-content .inner-content {
   position: absolute;
-  top: 50%;
+  top: 55%;
   transform: translate(-50%, -50%);
   left: 50%;
 }
 #top .left-content .inner-content h2 {
   color: #fff;
-  font-size: 54px;
+  font-size: 50px;
   font-weight: 700;
 }
 #top .left-content img {
@@ -733,6 +736,7 @@ banner
   position: relative;
   display: inline-block;
   max-width: none;
+  margin-top: 75px;
 }
 
 *,
@@ -985,6 +989,7 @@ border: 1px solid lightgrey;
   padding: 30px 30px 20px 30px;
   font-size: 20px;
   font-weight: 700;
+  text-align: center;
 }
 
 .description {
@@ -1461,6 +1466,7 @@ offers
 
 #menu .tabs-content p {
   margin-right: 100px;
+  text-align: left;
 }
 
 #menu .tabs-content .left-list {
@@ -1486,6 +1492,33 @@ offers
   font-weight: 700;
   color: #fff;
 }
+.bagel-price h6{
+  /*position: absolute;*/
+  top: 15px;
+  right: 0;
+  /*width: 70px;
+  height: 70px;
+  background-color: #fb5849;*/
+  display: inline-block;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fb5849;
+}
+
+.tab1-item{
+  display: flex;
+  align-items: center;
+  border: 1px dotted;
+  padding: 0px 10px;
+  margin: 0px !important;
+}
+.tab1-item h4{
+  margin-right: 10px !important;
+}
+
 .bagelstepItem-container{
   display: flex;
   flex-wrap: wrap;
