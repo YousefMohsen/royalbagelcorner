@@ -219,7 +219,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #1e1e1e;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -316,6 +316,11 @@ header
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
   color: #fb5849!important;
+}
+
+.header-area .main-nav .nav li:hover a.orderBtn,
+.header-area .main-nav .nav li a.orderBtn {
+  color: white !important;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -1833,4 +1838,18 @@ background-position: center;
  
 .menu-list li{
   display: block
+}
+
+
+a.orderBtn {
+  background-color: #fb5849!important;
+  padding: 1px 16px;
+  color: white !important;
+  border-radius: 5px;
+  height: auto;
+}
+
+a.orderBtn:hover {
+  color: white !important;
+  /* height: auto !important; */
 }
