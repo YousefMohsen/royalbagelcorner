@@ -1853,3 +1853,44 @@ a.orderBtn:hover {
   color: white !important;
   /* height: auto !important; */
 }
+
+.orderBtnHero {
+  display: none; /* Hide the button by default */
+}
+
+@media (max-width: 768px) {
+.orderBtnHero{
+  display: block;
+  bottom: 32px;
+  background-color: #fb5849 !important;
+  padding: 1px 16px;
+  color: white !important;
+  border-radius: 5px;
+  height: auto;
+  font-size: 30px;
+  position: absolute;
+  right: 50px;
+  z-index: 100;
+width: fit-content;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+border: 2px solid white;
+  -webkit-box-shadow: 0px 0px 75px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 75px -10px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 75px -10px rgba(0,0,0,0.75);
+}
+}
+/* }
+.hero-background {
+  background-image: url(../images/bagel/outside4.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 20px;
+
+} */
